@@ -1,0 +1,9 @@
+body{
+    background-color:rgb(150, 185, 255);
+    color:rgb(90, 15, 161);
+    font:normal 15pt arial;
+    text-align:center;
+    line-height: 75px;
+    border: 10px solid;
+    border-color:black;
+    }
