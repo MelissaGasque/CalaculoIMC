@@ -1,8 +1,8 @@
 function calcular(){
-    let alt= window.document.getElementById(`alt`)
+    let alt = window.document.getElementById(`alt`)
     let pes = window.document.getElementById(`pes`)
-    let res= window.document.getElementById(`res`)
-    let altura= Number(alt.value) 
+    let res = window.document.getElementById(`res`)
+    let altura = Number(alt.value) 
     let peso = Number(pes.value) 
     let imca = (altura*altura)/10000 
     let imc = (peso/imca).toFixed(3)
