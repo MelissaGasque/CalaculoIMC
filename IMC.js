@@ -7,7 +7,6 @@ function calcular(){
     let imca = (altura*altura)/10000 
     let imc = (peso/imca).toFixed(3)
     
-    
     if(imc<=18.5){
         res.innerHTML = ` O seu IMC é ${imc}! Voce está abaixo do peso.`
     } else if(imc<=24.9){
